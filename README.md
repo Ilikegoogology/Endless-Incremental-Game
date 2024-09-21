@@ -4,7 +4,7 @@
 Endless Incremental Game is a simple incremental game where players earn "Protoverses" over time. Players can increase their Protoverses manually or enhance their earning speed through upgrades.
 
 ## Features
-- Earn 0.01 Protoverses per millisecond automatically.
+- Earn 0.1 Protoverses per millisecond automatically.
 - Increase Protoverses manually with a button.
 - Enhance earning speed by 0.01% with a button.
 
