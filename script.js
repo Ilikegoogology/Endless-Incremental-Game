@@ -1,7 +1,7 @@
 let protoverses = 0;
-let increaseAmount = 0.01;
+let increaseAmount = 0.1; // Updated to 0.1 Protoverses
 let enhancementRate = 0.0001; // 0.01% as a decimal
-let speed = 0.01; // Starting speed in Protoverses per millisecond
+let speed = 0.1; // Starting speed in Protoverses per millisecond
 
 function updateDisplay() {
     document.getElementById('display').innerText = `Protoverses: ${protoverses.toFixed(2)}`;
