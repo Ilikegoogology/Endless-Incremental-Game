@@ -5,7 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Endless Incremental Game</title>
     <style>
-        body { font-family: Arial, sans-serif; }
+        body { 
+            font-family: Arial, sans-serif; 
+            background: linear-gradient(0deg, purple, lightpurple, purple);
+            animation: backgroundChange 10s infinite alternate;
+        }
+        
+        @keyframes backgroundChange {
+            0% { background: linear-gradient(0deg, purple, lightpurple, purple); }
+            100% { background: linear-gradient(0deg, navy, darkblue, navy); }
+        }
+
         #display { margin: 20px; font-size: 24px; }
         button { margin: 5px; padding: 10px; }
     </style>
@@ -13,7 +23,7 @@
 <body>
     <div id="display">Protoverses: 0</div>
     <button id="increase">Increase Protoverses</button>
-    <button id="enhance">Enhanced Protoverses</button>
+    <button id="enhance">Enhance Protoverses</button>
 
     <script src="script.js"></script>
 </body>
