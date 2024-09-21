@@ -21,4 +21,4 @@ document.getElementById('enhance').onclick = function() {
     speed += speed * enhancementRate;
 };
 
-setInterval(earnProtoverses, 1); // Update every millisecond
+setInterval(earnProtoverses, 0.01); // Update every millisecond
